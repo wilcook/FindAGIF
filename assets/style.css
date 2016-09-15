@@ -1,0 +1,9 @@
+.palette {
+	background-color: rgba(30,255,30,0.2);
+
+}
+
+#GIFParty img {
+	margin: 5px;
+	box-shadow: 1px 1px 15px 0px rgba(163,163,163,0);
+}

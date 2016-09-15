@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <title>gif search</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- search bar -->
+<nav>
+    <div class="nav-wrapper lime accent-4">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <div class="row">
+  <div class="col l12 right">
+    Powered by GIPHY
+  </div>
+  </div>
+  <div class="row">
+    <div id="suggestions">
+      <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons"><i class="material-icons">verified_user</i></i>
+      </a>
+      <ul>
+        <li><a id="wrenches" class="btn-floating red"><i class="material-icons">build</i></a></li>
+        <li><a id="present" class="btn-floating yellow darken-1"><i class="material-icons">card_giftcard</i></a></li>
+        <li><a id="insect" class="btn-floating green"><i class="material-icons">bug_report</i></a></li>
+        <li><a id="doggo" class="btn-floating blue"><i class="material-icons">pets</i></a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+  <div ID="GIFParty"></div>
+<script src="assets/node_modules/jquery/dist/jquery.js"></script> 
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"> </script>
+<script src="assets/javascript.js"></script>
+</body>
+</html>
